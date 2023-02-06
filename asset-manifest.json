@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb542232.css",
+    "main.js": "/static/js/main.c30e9cc0.js",
+    "static/media/Ecommerce.png": "/static/media/Ecommerce.e1912f58b33419659b1a.png",
+    "static/media/pc2.png": "/static/media/pc2.8b990229115b20ad1fbf.png",
+    "static/media/jeho3.png": "/static/media/jeho3.8d7fac06c4929d773182.png",
+    "static/media/Resume_Tijani_sylla.pdf": "/static/media/Resume_Tijani_sylla.a307e107c076660428d7.pdf",
+    "index.html": "/index.html",
+    "main.bb542232.css.map": "/static/css/main.bb542232.css.map",
+    "main.c30e9cc0.js.map": "/static/js/main.c30e9cc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb542232.css",
+    "static/js/main.c30e9cc0.js"
+  ]
+}
