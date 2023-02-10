@@ -92,13 +92,13 @@ const Qualification: React.FC = () => {
               {/* GRP 5 */}
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualififaction__title">Fullstack Developer</h3>
+                  <h3 className="qualififaction__title">Full-Stack Teaching Assistant</h3>
                   <span className="qualification__subtitle">
-                  individual project
+                 Bootcamp Assistant (TA) for Full-Stack Development Students.
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender"></i>
-                    2022 - 2022
+                    2022 - 2023
                   </div>
                 </div>
                 <div>
@@ -115,10 +115,10 @@ const Qualification: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="qualififaction__title">Fullstack Developer</h3>
-                  <span className="qualification__subtitle"> final project</span>
+                  <span className="qualification__subtitle"> individual project</span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender"></i>
-                    2022 - 2023
+                    2022 - 2022
                   </div>
                 </div>
               </div>
@@ -126,12 +126,17 @@ const Qualification: React.FC = () => {
             
               {/* GRP 8 */}
               <div className="qualification__data">
-                <div> 
-                  <h3 className="qualififaction__title"> </h3>
-                  <span className="qualification__subtitle">
-                  
-                  </span>
+                <div></div>
+                <div>
+                  <span className="qualifaction__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 className="qualififaction__title">Fullstack Developer</h3>
+                  <span className="qualification__subtitle"> final project</span>
                   <div className="qualification__calender">
+                    <i className="uil uil-calender"></i>
+                    2022 - 2023
                    
                   </div>
                 </div>
