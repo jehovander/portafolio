@@ -88,9 +88,9 @@ const Contact: React.FC = () => {
                 <div className="contact__card">
                   <i className="bx bxl-whatsapp conact__card-icon"></i>
                   <h3 className="conact__card-title">Whatsapp</h3>
-                  <span className="contact__card-data">+58-424-512-1481</span>
+                  <span className="contact__card-data">+58-424-567-87-62</span>
                   <a
-                    href="https://api.whatsapp.com/send?phone=+584245121481&text=Hello, more information!"
+                    href="https://api.whatsapp.com/send?phone=+584245678762&text=Hello, more information!"
                     target="_blank"
                     className="contact__button"
                     rel="noreferrer"
