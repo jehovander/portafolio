@@ -67,6 +67,16 @@ const BackEnd: React.FC = () => {
           </div>
           <div className="skills__data">
      
+     
+          <div className="skills__data">
+          <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Python</h3>
+              <span className="skills__level"></span>
+            </div>
+          </div>
+          <div className="skills__data"></div>
+
             <div>
               <h3 className="skills__name"></h3>
               <span className="skills__level"></span>

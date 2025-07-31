@@ -123,7 +123,25 @@ const Qualification: React.FC = () => {
                 </div>
               </div>
               {/* GRP 7 */}
-            
+             <div className="qualification__data">
+                <div>
+                  <h3 className="qualififaction__title">Bot Multifuncional de Discord (Freelancer)</h3>
+                  <span className="qualification__subtitle">
+                • Desarrollé un bot personalizado para soporte, ventas y automatización de tareas en Discord.
+                • Incluyó sistema de tickets avanzado, comandos personalizados, respuestas automáticas, y gestión de precios.
+                • Uso de embeds visuales, permisos por rol, transcripción automática y modularización con cogs.
+                Python, discord.py, Asyncio, JSON, Git, dotenv, Embeds, Roles
+                  </span>
+                  <div className="qualification__calender">
+                    <i className="uil uil-calender"></i>
+                    Julio 2025 - Julio 2025
+                  </div>
+                </div>
+                <div>
+                  <span className="qualifaction__rounder"></span>
+                  <span className="qualification__line"></span>
+                </div>
+              </div>
               {/* GRP 8 */}
               <div className="qualification__data">
                 <div></div>

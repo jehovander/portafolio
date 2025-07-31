@@ -10,8 +10,19 @@ export const data: TypeMyData[] = [
     link: "https://fullstackstore.vercel.app",
     gitHub: "https://github.com/jehovander",
   },
+  {
+    id: 2,
+    title:"Freelancer",
+    img_url: `${Botsito}`,
+    link:"",
+    gitHub:"https://github.com/jehovander",
+
+
+  },
 
 ];
+
+
 
 export const listNavBar: TypeNavbar[] = [
   {
