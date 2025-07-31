@@ -1,7 +1,7 @@
 // This file contains the data for the projects and navbarbar items.
 import { TypeMyData, TypeNavbar } from "./Models";
 import ecommerce from "../assets/Ecommerce.png";
-import Botsito from "../assets/Botsito.png";
+import botsito from "../assets/Botsito.png";
 export const data: TypeMyData[] = [
   {
     id: 1,
@@ -13,7 +13,7 @@ export const data: TypeMyData[] = [
   {
     id: 2,
     title:"Freelancer",
-    img_url: `${Botsito}`,
+    img_url: `${botsito}`,
     link:"",
     gitHub:"https://github.com/jehovander",
 
