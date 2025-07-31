@@ -130,7 +130,7 @@ const Qualification: React.FC = () => {
                 • Desarrollé un bot personalizado para soporte, ventas y automatización de tareas en Discord.
                 • Incluyó sistema de tickets avanzado, comandos personalizados, respuestas automáticas, y gestión de precios.
                 • Uso de embeds visuales, permisos por rol, transcripción automática y modularización con cogs.
-                Python, discord.py, Asyncio, JSON, Git, dotenv, Embeds, Roles
+                
                   </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender"></i>
