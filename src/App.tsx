@@ -1,48 +1,27 @@
-import React, { useState, useEffect } from "react";
-import "./components/Style/App.css";
-import {
-  Home,
-  Header,
-  About,
-  Skills,
-  Qualification,
-  Projects,
-  Contact,
-  Footer,
-  ScrollUp,
-  contextDarkMod,
-} from "./components";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Hero } from "@/components/sections/Hero";
+import { About } from "@/components/sections/About";
+import { Skills } from "@/components/sections/Skills";
+import { Projects } from "@/components/sections/Projects";
+import { Experience } from "@/components/sections/Experience";
+import { Chatbot } from "@/components/sections/Chatbot";
+import { Contact } from "@/components/sections/Contact";
 
-const App: React.FC = () => {
-  const [IsdarkMode, setIsDarkMode] = useState<boolean>(false);
-
-  const toggleIsDarkMode = (): void => {
-    localStorage.setItem("isDarkMode", JSON.stringify(!IsdarkMode));
-    setIsDarkMode(!IsdarkMode);
-  };
-
-  useEffect(() => {
-    const isDark: boolean = localStorage.getItem("isDarkMode") === "true";
-    setIsDarkMode(isDark);
-  }, [IsdarkMode]);
-
+export default function App() {
   return (
-    <contextDarkMod.Provider value={{ IsdarkMode, toggleIsDarkMode }}>
-      <div className="App">
-        <Header />
-        <main className="main">
-          <Home />
-          <About />
-          <Skills />
-          <Qualification />
-          <Projects />
-          <Contact />
-        </main>
-        <Footer />
-        <ScrollUp />
-      </div>
-    </contextDarkMod.Provider>
+    <div className="min-h-screen bg-[var(--color-bg)] text-[var(--color-text)]">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Chatbot />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   );
-};
-
-export default App;
+}

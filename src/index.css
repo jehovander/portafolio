@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  --color-bg: #0a0a0a;
+  --color-bg-elevated: #111111;
+  --color-bg-card: #141414;
+  --color-border: #1f1f1f;
+  --color-border-strong: #2a2a2a;
+  --color-text: #ededed;
+  --color-text-muted: #a1a1aa;
+  --color-text-dim: #71717a;
+
+  --color-accent: #8b5cf6;
+  --color-accent-hover: #a78bfa;
+  --color-accent-glow: #7c3aed;
+}
+
+@layer base {
+  * {
+    @apply border-[var(--color-border)];
+  }
+  html {
+    scroll-behavior: smooth;
+    background: var(--color-bg);
+    color-scheme: dark;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-accent-glow);
+    color: white;
+  }
+  *:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image: linear-gradient(rgba(139, 92, 246, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(139, 92, 246, 0.05) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+  .bg-radial-glow {
+    background: radial-gradient(
+      circle at 50% 0%,
+      rgba(124, 58, 237, 0.15),
+      transparent 60%
+    );
+  }
+  .text-gradient {
+    background: linear-gradient(135deg, #ededed 0%, #a78bfa 50%, #ededed 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .glow-violet {
+    box-shadow: 0 0 32px -8px rgba(139, 92, 246, 0.5);
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border-strong) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: var(--color-border-strong);
+    border-radius: 3px;
+  }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+.typing-dot {
+  animation: pulse-dot 1.4s infinite;
+}
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
