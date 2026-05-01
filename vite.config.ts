@@ -30,7 +30,7 @@ export default defineConfig(({ mode }) => {
               const body = raw ? JSON.parse(raw) : {};
 
               const { handleChat } = await server.ssrLoadModule(
-                "/src/server/chat-handler.ts",
+                "/api/_lib/chat-handler.ts",
               );
               const result = await handleChat(body);
 
