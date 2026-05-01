@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { SYSTEM_PROMPT } from "./system-prompt";
+import { SYSTEM_PROMPT } from "./system-prompt.js";
 
 const MODEL = "llama-3.3-70b-versatile";
 const BASE_URL = "https://api.groq.com/openai/v1";
