@@ -225,6 +225,22 @@ export const projects: Project[] = [
     status: "freelance",
     featured: true,
   },
+  {
+    slug: "ai-portfolio",
+    title: {
+      es: "AI-Powered Portfolio (este sitio)",
+      en: "AI-Powered Portfolio (this site)",
+    },
+    description: {
+      es: "Este mismo portafolio. React + TypeScript + Tailwind v4 con asistente IA integrado vía Vercel Serverless Functions y Groq + Llama 3.3. Bilingüe ES/EN, animaciones con Framer Motion, tema oscuro y prompt engineering con reglas de NDA. Código abierto — pruébalo y revísalo.",
+      en: "This very portfolio. React + TypeScript + Tailwind v4 with AI assistant integrated via Vercel Serverless Functions and Groq + Llama 3.3. Bilingual ES/EN, Framer Motion animations, dark theme and prompt engineering with NDA rules. Open source — try it and review it.",
+    },
+    tags: ["Vite", "React", "TypeScript", "Tailwind v4", "Framer Motion", "Vercel Serverless", "Groq", "Llama 3.3"],
+    status: "live",
+    liveUrl: "https://jehovander.vercel.app",
+    codeUrl: "https://github.com/jehovander/portafolio",
+    featured: true,
+  },
 ];
 
 export interface ExperienceItem {
