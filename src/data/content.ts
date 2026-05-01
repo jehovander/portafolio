@@ -193,8 +193,8 @@ export const projects: Project[] = [
       en: "Multi-sport Sportsbook — Client under NDA",
     },
     description: {
-      es: "Plataforma de apuestas deportivas en construcción para cliente privado. 11+ deportes integrados (Fútbol, Basket, MMA, F1, NFL, hípica y más), KYC, sistema de bonos y promociones, juego responsable (RG), flujos de retiro y panel admin. Stack moderno full-TypeScript desplegado en Vercel.",
-      en: "Sports betting platform under construction for private client. 11+ sports integrated (Football, Basketball, MMA, F1, NFL, horse racing and more), KYC, bonus and promotions system, Responsible Gaming, withdrawal flows and admin panel. Modern full-TypeScript stack deployed on Vercel.",
+      es: "Plataforma de apuestas deportivas en construcción para cliente privado. 11+ deportes integrados (Fútbol, Basket, MMA, F1, NFL, hípica y más), KYC, sistema de bonos y promociones, juego responsable (RG), flujos de retiro y panel admin. Stack moderno full-TypeScript.",
+      en: "Sports betting platform under construction for private client. 11+ sports integrated (Football, Basketball, MMA, F1, NFL, horse racing and more), KYC, bonus and promotions system, Responsible Gaming, withdrawal flows and admin panel. Modern full-TypeScript stack.",
     },
     tags: ["Next.js 16", "React 19", "TypeScript", "Supabase", "Drizzle ORM", "PostgreSQL", "KYC", "i18n"],
     status: "private",
