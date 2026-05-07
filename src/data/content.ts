@@ -226,6 +226,22 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "takeoff-demo",
+    title: {
+      es: "Takeoff Demo — AI para Estimados de Construcción",
+      en: "Takeoff Demo — AI Construction Estimator",
+    },
+    description: {
+      es: "Demo open source que toma un plano arquitectónico y devuelve un estimado estructurado de elementos (paredes, puertas, ventanas), cantidades, áreas por habitación y notas de calidad — todo exportable a JSON. Construido con Next.js 16, modelos de visión open-source servidos por Groq (Llama 4 Scout) y Vercel Serverless. Bilingüe ES/EN con re-análisis dinámico al cambiar idioma. Hecho con Claude Code.",
+      en: "Open-source demo that takes an architectural blueprint and returns a structured estimate of elements (walls, doors, windows), quantities, room-by-room areas and quality notes — all exportable to JSON. Built with Next.js 16, open-source vision models served by Groq (Llama 4 Scout) and Vercel Serverless. Bilingual EN/ES with dynamic re-analysis on language switch. Built with Claude Code.",
+    },
+    tags: ["Next.js 16", "TypeScript", "Tailwind v4", "Groq", "Llama Vision", "Vercel Serverless", "AI Vision", "Claude Code"],
+    status: "live",
+    liveUrl: "https://takeoff-demo-one.vercel.app",
+    codeUrl: "https://github.com/jehovander/takeoff-demo",
+    featured: true,
+  },
+  {
     slug: "ai-portfolio",
     title: {
       es: "AI-Powered Portfolio (este sitio)",
