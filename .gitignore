@@ -20,3 +20,12 @@ proyectos/
 *.ex5
 *.mq4
 *.ex4
+
+# Notas personales (job postings, scratch, drafts) — locales solo
+propuesta.txt
+propuestas.txt
+notes.txt
+notas.txt
+TODO.txt
+*.local.md
+*.draft.md
