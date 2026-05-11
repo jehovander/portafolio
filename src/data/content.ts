@@ -11,6 +11,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/jehovander-delgado-1147b7154/",
   twitter: "https://twitter.com/jehovander",
   instagram: "https://instagram.com/jehovander",
+  workana: "https://www.workana.com/freelancer/2ccdc905dfd815cf2da1132e4112753b",
   avatar: "/jeho3.png",
 };
 

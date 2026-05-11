@@ -19,9 +19,14 @@ export function Footer() {
             {t(ui.footer.builtWith)}
           </p>
         </div>
-        <p className="font-mono text-xs text-[var(--color-text-dim)] text-center md:text-right">
-          {t(ui.contact.workanaSubtitle)}
-        </p>
+        <a
+          href={profile.workana}
+          target="_blank"
+          rel="noreferrer"
+          className="font-mono text-xs text-[var(--color-text-dim)] hover:text-[var(--color-accent-hover)] transition-colors text-center md:text-right"
+        >
+          {t(ui.contact.workanaCta)} →
+        </a>
       </div>
     </footer>
   );
