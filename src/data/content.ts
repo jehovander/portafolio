@@ -87,8 +87,8 @@ export const ui = {
       en: ["What projects have you done?", "How much do you charge?", "What technologies do you use?", "How can I contact you?"],
     },
     error: {
-      es: "Algo salió mal. Inténtalo de nuevo o escríbele directo a jehovander@gmail.com",
-      en: "Something went wrong. Try again or email jehovander@gmail.com directly",
+      es: "Algo salió mal. Por favor inténtalo de nuevo.",
+      en: "Something went wrong. Please try again.",
     },
   },
   contact: {
