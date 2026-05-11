@@ -53,10 +53,10 @@ export async function handleChat(body: ChatRequestBody): Promise<ChatResult> {
     return { status: 400, body: { error: "no valid messages" } };
   }
 
-  const langInstruction =
-    lang === "en"
-      ? "\n\nThe user prefers English. Reply in English unless they switch language."
-      : "\n\nEl usuario prefiere español. Responde en español a menos que cambie de idioma.";
+  // Don't inject a "user prefers ${uiLang}" instruction — that was overriding
+  // the system prompt's multilingual rule and forcing Spanish replies to
+  // Portuguese questions. The prompt itself handles language detection now.
+  void lang;
 
   const client = new OpenAI({
     apiKey: process.env.GROK_API_KEY,
@@ -67,10 +67,13 @@ export async function handleChat(body: ChatRequestBody): Promise<ChatResult> {
     const completion = await client.chat.completions.create({
       model: MODEL,
       messages: [
-        { role: "system", content: SYSTEM_PROMPT + langInstruction },
+        { role: "system", content: SYSTEM_PROMPT },
         ...trimmed,
       ],
-      temperature: 0.7,
+      // Lower temperature → more deterministic language detection.
+      // Higher temps let the model "rationalize" replying in a different
+      // language than the user wrote in, which is exactly what we're fixing.
+      temperature: 0.4,
       max_tokens: 600,
     });
 
