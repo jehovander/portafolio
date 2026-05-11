@@ -234,6 +234,22 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "global-express-agent",
+    title: {
+      es: "Global Express AI Agent — Chatbot de Courier",
+      en: "Global Express AI Agent — Courier Chatbot",
+    },
+    description: {
+      es: "Agente IA conversacional en producción para una empresa de courier real. Cotizaciones automatizadas paso a paso, captura de leads, handoff inteligente a WhatsApp con contexto de la conversación, widget flotante estilo Intercom con badge de mensajes no leídos, y panel responsivo full-screen en mobile. Stack: Next.js 16 + Groq + Llama 3.3 + Vercel Serverless. System prompt con reglas de negocio configurables vía env vars.",
+      en: "Production conversational AI agent for a real courier company. Step-by-step automated shipping quotes, lead capture, intelligent WhatsApp handoff with conversation context, Intercom-style floating widget with unread-message badge, and full-screen responsive panel on mobile. Stack: Next.js 16 + Groq + Llama 3.3 + Vercel Serverless. System prompt with business rules configurable via env vars.",
+    },
+    tags: ["Next.js 16", "TypeScript", "Tailwind v4", "Groq", "Llama 3.3", "Vercel Serverless", "Chatbot", "Lead Capture", "AI Agents"],
+    status: "live",
+    liveUrl: "https://global-express-agent.vercel.app",
+    codeUrl: "https://github.com/jehovander/global-express-agent",
+    featured: true,
+  },
+  {
     slug: "takeoff-demo",
     title: {
       es: "Takeoff Demo — AI para Estimados de Construcción",
