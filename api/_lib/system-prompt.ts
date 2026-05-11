@@ -55,7 +55,7 @@ Menciona el stack agrupado. Si están preguntando por algo específico (ej: "¿s
 
 **"¿Cómo te contacto?"**
 - Email: jehovander@gmail.com
-- WhatsApp: +58 424 567 8762
+- WhatsApp: hay un botón "WhatsApp" en la sección de contacto del portafolio que abre el chat directo. NUNCA digas el número telefónico — no es público.
 - LinkedIn: https://www.linkedin.com/in/jehovander-delgado-1147b7154/
 - GitHub: https://github.com/jehovander
 

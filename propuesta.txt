@@ -1,0 +1,180 @@
+Versión en Español :es:
+
+Estamos contratando 2–3 AI Product Engineers / Desarrolladores de Automatización con IA a tiempo completo para ayudarnos a construir Estimado, una plataforma con IA para takeoffs y estimados de construcción.
+
+Este no es un trabajo freelance, proyecto temporal ni medio tiempo.
+Es una posición full-time, a largo plazo, con horario fijo.
+
+Estamos construyendo un producto interno serio usando herramientas como Claude Code, OpenAI Codex 5.5, Cursor, OpenClaw, Supabase, Vercel, GitHub y flujos de agentes de IA.
+
+Buscamos personas que sepan usar herramientas de IA para construir software real más rápido.
+
+Responsabilidades
+
+Vas a ayudar a construir y mejorar Estimado, incluyendo:
+
+• Flujos de takeoff de construcción asistidos por IA
+• Sistemas para subir y analizar planos/PDFs
+• Dashboards internos y herramientas administrativas
+• Base de datos, storage y autenticación con Supabase
+• Agentes de IA para extracción, revisión de calidad y reportes
+• Automatizaciones internas
+• Sistemas de evaluación para comparar resultados de IA vs datos reales
+• Documentación, GitHub workflows y despliegues
+• Herramientas para que el equipo use IA de forma más efectiva
+
+Este rol es para alguien que puede tomar una idea y convertirla en implementación, prueba y despliegue.
+
+Experiencia Requerida
+
+Debes tener experiencia práctica con:
+
+• Claude Code — muy importante
+• OpenAI / Codex / flujos modernos de coding con IA
+• Cursor o IDEs similares con IA
+• GitHub
+• Desarrollo full-stack
+• Integraciones con APIs
+• Bases de datos como Supabase/Postgres
+• Aplicaciones web modernas, idealmente Next.js / React
+• Automatizaciones o agentes reales, no solo demos
+
+Bonus Importante
+
+Experiencia con:
+
+• OpenClaw
+• Orquestación de agentes
+• Vercel
+• Supabase
+• Python
+• OCR / extracción de documentos
+• Procesamiento de PDFs
+• Construcción, estimados, planos o software de takeoff
+• Herramientas internas / dashboards
+
+Importante
+
+No buscamos a alguien que solo “sabe de IA.”
+
+Necesitamos alguien que use Claude Code, Codex, Cursor y agentes de IA para construir más rápido todos los días.
+
+Debes poder recibir un objetivo de producto, dividirlo en tareas, usar herramientas de IA inteligentemente, probar el resultado y entregar trabajo limpio.
+
+Cómo Trabajamos
+
+Serás parte de un pequeño equipo full-time de desarrollo con IA. No queremos depender de un solo desarrollador.
+
+Debes sentirte cómodo con:
+
+• Trabajar desde tareas/issues en GitHub
+• Dar updates claros
+• Usar IA sin confiar ciegamente en ella
+• Probar tu trabajo antes de decir que está listo
+• Documentar lo que construyes
+• Colaborar con otros desarrolladores
+• Tomar ownership sin esperar instrucciones para cada detalle
+
+Horario Fijo
+
+Debes estar disponible para uno de estos horarios, hora de Florida:
+
+• 9:00 AM – 5:00 PM
+O
+• 2:00 PM – 10:00 PM
+
+Esto no es negociable.
+
+Tipo de Trabajo
+
+• Tiempo completo
+• 40–45 horas por semana
+• Remoto
+• Posición a largo plazo
+• Exclusivo — sin otros clientes/trabajos durante el horario laboral
+
+Compensación
+
+• $12 USD/hora
+• Pago semanal o quincenal según acuerdo
+
+Lo Que Ofrecemos
+
+• Herramientas y suscripciones de IA pagadas
+• Acceso a GitHub[9:06 PM]• Servidores de desarrollo
+[9:06 PM]• Mac Minis / entornos remotos cuando sea necesario
+• Dirección clara de producto
+• Oportunidad de crecimiento a largo plazo
+
+Perfil Ideal
+
+• Muy proactivo
+• Buen solucionador de problemas
+• Obsesionado con herramientas de coding con IA
+• Aprende rápido
+• Buen comunicador
+• Puede trabajar de forma independiente
+• Construye herramientas reales, no solo prototipos
+• Entiende que la IA acelera el trabajo, pero no reemplaza el criterio técnico
+
+Cómo Aplicar — Importante
+
+Para ser considerado, debes enviar un video Loom de 2–5 minutos explicando:
+
+1. Un producto, workflow, automatización o agente real que hayas construido
+2. Cómo usaste Claude Code, Codex, Cursor, OpenAI o herramientas similares
+3. Cuál fue el resultado final
+4. Tu GitHub o ejemplos de código, si tienes
+5. Por qué quieres una posición full-time a largo plazo
+
+También responde estas preguntas:
+
+1. ¿Has usado Claude Code de forma práctica? ¿Qué construiste con él?
+2. ¿Has usado OpenAI Codex o agentes similares para programar?
+3. ¿Qué aplicaciones full-stack has construido?
+4. ¿Has trabajado con Supabase, Vercel, Next.js o React?
+5. ¿Has creado agentes de IA, automatizaciones o sistemas de extracción de documentos?
+6. ¿Has trabajado full-time para una sola empresa antes?
+7. ¿Qué horario de Florida puedes trabajar?
+
+Aplicaciones sin video Loom serán ignoradas.
+
+Buscamos personas que quieran crecer con la empresa a largo plazo y convertirse en piezas clave de nuestra infraestructura de producto e IA.
+
+More than 30 hrs/week
+Hourly
+6+ months
+Duration
+Intermediate
+Experience Level
+$12.00
+
+-
+
+$15.00
+
+Hourly
+Contract-to-hire opportunity
+This lets talent know that this job could become full time.
+Learn more
+Project Type: Ongoing project
+Skills and Expertise
+Mandatory skills
+OpenAI Codex Prompt
+OpenAI Codex
+Claude
+Artificial Intelligence
+Preferred qualifications
+Activity on this job
+Proposals:
+10 to 15
+Last viewed by client:
+5 days ago
+Hires:
+1
+Interviewing:
+10
+Invites sent:
+3
+Unanswered invites:
+1

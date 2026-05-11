@@ -18,7 +18,7 @@ export function Contact() {
     {
       icon: MessageCircle,
       label: t(ui.contact.whatsappLabel),
-      value: profile.whatsappDisplay,
+      value: t(ui.contact.whatsappCta),
       href: `https://wa.me/${profile.whatsapp.replace(/[^0-9]/g, "")}`,
       primary: true,
     },

@@ -99,6 +99,7 @@ export const ui = {
     },
     emailLabel: { es: "Correo", en: "Email" },
     whatsappLabel: { es: "WhatsApp", en: "WhatsApp" },
+    whatsappCta: { es: "Iniciar conversación", en: "Start a chat" },
     socialsLabel: { es: "Redes", en: "Socials" },
   },
   footer: {
