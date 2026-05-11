@@ -101,6 +101,13 @@ export const ui = {
     whatsappLabel: { es: "WhatsApp", en: "WhatsApp" },
     whatsappCta: { es: "Iniciar conversación", en: "Start a chat" },
     socialsLabel: { es: "Redes", en: "Socials" },
+    // Workana-only strings (used by the workana branch / Workana version)
+    workanaTitle: { es: "Trabajemos juntos", en: "Let's work together" },
+    workanaSubtitle: {
+      es: "Para conversar sobre tu proyecto, me podés contactar directamente por Workana.",
+      en: "To talk about your project, please reach out through Workana.",
+    },
+    workanaCta: { es: "Ver perfil en Workana", en: "View Workana profile" },
   },
   footer: {
     rights: { es: "Todos los derechos reservados", en: "All rights reserved" },
