@@ -1,16 +1,12 @@
 export type Lang = "es" | "en";
 
+// Workana-safe profile: direct contact channels (email, WhatsApp, socials)
+// are intentionally removed from the bundle so they can't leak in the HTML,
+// JS payload, OG tags or AI responses. All contact flows route through Workana.
 export const profile = {
   name: "Jehovander Delgado",
   role: { es: "AI Developer & Full Stack Developer", en: "AI Developer & Full Stack Developer" },
   location: { es: "Venezuela", en: "Venezuela" },
-  email: "jehovander@gmail.com",
-  whatsapp: "+584245678762",
-  whatsappDisplay: "+58 424 567 8762",
-  github: "https://github.com/jehovander",
-  linkedin: "https://www.linkedin.com/in/jehovander-delgado-1147b7154/",
-  twitter: "https://twitter.com/jehovander",
-  instagram: "https://instagram.com/jehovander",
   workana: "https://www.workana.com/freelancer/2ccdc905dfd815cf2da1132e4112753b",
   avatar: "/jeho3.png",
 };
