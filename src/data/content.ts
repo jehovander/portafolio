@@ -259,6 +259,22 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "voicedesk-ai",
+    title: {
+      es: "VoiceDesk AI — Agentes de Voz para Empresas",
+      en: "VoiceDesk AI — Voice Agents for Business",
+    },
+    description: {
+      es: "Demo público interactivo de agentes IA de voz para clínicas, ventas y recepción. Eliges un agente, le llamas desde el navegador y te atiende en español, inglés o portugués con conversación natural y barge-in (lo puedes interrumpir como en una llamada real). Stack: Groq Whisper (STT) + Llama 3.3 70B en streaming + Microsoft Edge TTS, con fallback automático a Web Speech del navegador. Next.js 16 + Vercel Serverless. PWA instalable. Hecho con Claude Code.",
+      en: "Public interactive demo of AI voice agents for clinic, sales and reception desks. You pick an agent, call it from your browser, and it answers in Spanish, English or Portuguese with natural conversation and barge-in (you can interrupt it like a real call). Stack: Groq Whisper (STT) + streaming Llama 3.3 70B + Microsoft Edge TTS, with automatic fallback to browser Web Speech. Next.js 16 + Vercel Serverless. Installable PWA. Built with Claude Code.",
+    },
+    tags: ["Next.js 16", "TypeScript", "Tailwind v4", "Groq Whisper", "Llama 3.3", "Edge TTS", "Web Audio API", "PWA", "Voice AI", "Multi-agent"],
+    status: "live",
+    liveUrl: "https://voicedesk-ai.vercel.app",
+    codeUrl: "https://github.com/jehovander/voicedesk-ai",
+    featured: true,
+  },
+  {
     slug: "ai-portfolio",
     title: {
       es: "AI-Powered Portfolio (este sitio)",
