@@ -1,6 +1,8 @@
-import { Github, Linkedin, Twitter, Instagram, Mail } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { profile, ui } from "@/data/content";
+
+// Workana variant: no external contact channels in the footer either.
+// Visitors that come from Workana go back through Workana to message.
 
 export function Footer() {
   const { t } = useI18n();
@@ -17,51 +19,14 @@ export function Footer() {
             {t(ui.footer.builtWith)}
           </p>
         </div>
-        <div className="flex items-center gap-2">
-          <a
-            href={`mailto:${profile.email}`}
-            className="p-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-accent-hover)] hover:bg-[var(--color-bg-elevated)] transition-colors"
-            aria-label="Email"
-          >
-            <Mail size={18} />
-          </a>
-          <a
-            href={profile.github}
-            target="_blank"
-            rel="noreferrer"
-            className="p-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-accent-hover)] hover:bg-[var(--color-bg-elevated)] transition-colors"
-            aria-label="GitHub"
-          >
-            <Github size={18} />
-          </a>
-          <a
-            href={profile.linkedin}
-            target="_blank"
-            rel="noreferrer"
-            className="p-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-accent-hover)] hover:bg-[var(--color-bg-elevated)] transition-colors"
-            aria-label="LinkedIn"
-          >
-            <Linkedin size={18} />
-          </a>
-          <a
-            href={profile.twitter}
-            target="_blank"
-            rel="noreferrer"
-            className="p-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-accent-hover)] hover:bg-[var(--color-bg-elevated)] transition-colors"
-            aria-label="Twitter"
-          >
-            <Twitter size={18} />
-          </a>
-          <a
-            href={profile.instagram}
-            target="_blank"
-            rel="noreferrer"
-            className="p-2 rounded-md text-[var(--color-text-muted)] hover:text-[var(--color-accent-hover)] hover:bg-[var(--color-bg-elevated)] transition-colors"
-            aria-label="Instagram"
-          >
-            <Instagram size={18} />
-          </a>
-        </div>
+        <a
+          href={profile.workana}
+          target="_blank"
+          rel="noreferrer"
+          className="font-mono text-xs text-[var(--color-text-dim)] hover:text-[var(--color-accent-hover)] transition-colors text-center md:text-right"
+        >
+          {t(ui.contact.workanaCta)} →
+        </a>
       </div>
     </footer>
   );

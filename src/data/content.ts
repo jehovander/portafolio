@@ -1,16 +1,13 @@
 export type Lang = "es" | "en";
 
+// Workana-safe profile: direct contact channels (email, WhatsApp, socials)
+// are intentionally removed from the bundle so they can't leak in the HTML,
+// JS payload, OG tags or AI responses. All contact flows route through Workana.
 export const profile = {
   name: "Jehovander Delgado",
   role: { es: "AI Developer & Full Stack Developer", en: "AI Developer & Full Stack Developer" },
   location: { es: "Venezuela", en: "Venezuela" },
-  email: "jehovander@gmail.com",
-  whatsapp: "+584245678762",
-  whatsappDisplay: "+58 424 567 8762",
-  github: "https://github.com/jehovander",
-  linkedin: "https://www.linkedin.com/in/jehovander-delgado-1147b7154/",
-  twitter: "https://twitter.com/jehovander",
-  instagram: "https://instagram.com/jehovander",
+  workana: "https://www.workana.com/freelancer/2ccdc905dfd815cf2da1132e4112753b",
   avatar: "/jeho3.png",
 };
 
@@ -87,8 +84,8 @@ export const ui = {
       en: ["What projects have you done?", "How much do you charge?", "What technologies do you use?", "How can I contact you?"],
     },
     error: {
-      es: "Algo salió mal. Inténtalo de nuevo o escríbele directo a jehovander@gmail.com",
-      en: "Something went wrong. Try again or email jehovander@gmail.com directly",
+      es: "Algo salió mal. Por favor inténtalo de nuevo.",
+      en: "Something went wrong. Please try again.",
     },
   },
   contact: {
@@ -101,6 +98,13 @@ export const ui = {
     whatsappLabel: { es: "WhatsApp", en: "WhatsApp" },
     whatsappCta: { es: "Iniciar conversación", en: "Start a chat" },
     socialsLabel: { es: "Redes", en: "Socials" },
+    // Workana-only strings (used by the workana branch / Workana version)
+    workanaTitle: { es: "Trabajemos juntos", en: "Let's work together" },
+    workanaSubtitle: {
+      es: "Para conversar sobre tu proyecto, me podés contactar directamente por Workana.",
+      en: "To talk about your project, please reach out through Workana.",
+    },
+    workanaCta: { es: "Ver perfil en Workana", en: "View Workana profile" },
   },
   footer: {
     rights: { es: "Todos los derechos reservados", en: "All rights reserved" },
